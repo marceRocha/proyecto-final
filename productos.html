@@ -62,7 +62,9 @@
             padding-left: 10px;
             padding-right: 10px;
         }
-
+        .breadcrumb{
+            padding-right: 70px;
+        }
 
     </style>
 </head>
@@ -78,7 +80,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
@@ -88,8 +90,8 @@
                       Menu
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Productos</a></li>
-                      <li><a class="dropdown-item" href="#">Contacto</a></li>
+                      <li><a class="dropdown-item" href="productos.html">Productos</a></li>
+                      <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -101,6 +103,13 @@
             </div>
           </nav>
           <!-- termina seccion de navbar  -->
+          <div class="container-fluid">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+              <li class="breadcrumb-item active">Productos</li>
+              <li class="breadcrumb-item"><a href="contacto.html">Contacto</a></li>
+            </ol>
+          </div>
     </div>
     <!-- seccion del contenido  -->
     <div id="carouselExampleControls" class="carousel col-lg-12 col-sm-6 container-fluid " data-bs-ride="carousel">
