@@ -149,10 +149,19 @@
 
         h1{
             font-size: 39px;  
-            text-align: letf; 
+            text-align: center; 
             padding-bottom: 20px; 
             color: #ffffff;
+            padding-right: 50px;
+            text-shadow: 3px 2px 3px black;
             }
+        .contacto {
+            font-size: 39px;  
+            text-align: center; 
+            padding-bottom: 20px; 
+            color: #ffffff;
+            padding-right: 50px;
+        }    
 
 
         h3{
@@ -216,8 +225,10 @@
                     </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="productos.html">Productos</a></li>
-                      <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
                     </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -242,8 +253,9 @@
     <div class="contact_form">
 
         <div class="formulario">      
-          <h1>Formulario de contacto</h1>
-            <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+          <h1>Formulario de</h1>
+          <h1 class="contacto">contacto</h1>
+            <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
     
     
               <form action="submeter-formulario.php" method="post">       
@@ -267,12 +279,6 @@
                       <label for="telefone" class="colocar_telefono">Teléfono
                       </label>
                         <input class="input-campos" type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-                    </p>    
-                  
-                    <p>
-                      <label for="website" class="colocar_website">Sitio web
-                      </label>
-                        <input class="input-campos" type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
                     </p>    
                   
                     <p>
@@ -303,7 +309,7 @@
     <!-- footer -->
     <div class="footer container-fluid">
 
-<footer class="text-center text-lg-start bg-white text-muted">
+<footer class="text-center text-lg-start bg-gray text-muted">
     
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
   
